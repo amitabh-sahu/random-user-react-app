@@ -1,0 +1,15 @@
+.app_userslist {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.app_userslist-users {
+    color: #101010;
+    padding: 1rem 2rem;
+    box-shadow: 0px 1px 5px darkgray;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}

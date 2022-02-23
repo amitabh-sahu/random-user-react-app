@@ -1,0 +1,15 @@
+.app_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.app_header > button {
+    text-transform: uppercase;
+}

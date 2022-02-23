@@ -1,0 +1,45 @@
+.app_login {
+    width: 30%;
+    color: #101010;
+    border-radius: 5px;
+    padding: 1rem 2rem 2rem 2rem;
+    box-shadow: 0px 1px 5px darkgray;
+}
+
+.app_login, .app_login > form, .field {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.field {
+    gap: 0.25rem;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+input, button, label {
+    font-size: 1.5rem;
+}
+
+input, button {
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border: 1px solid darkgray;
+}
+
+button {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.show_password > label {
+    font-size: 1.25em;
+}
+
+.show_password > label > input {
+    margin-right: 0.5em;
+}
