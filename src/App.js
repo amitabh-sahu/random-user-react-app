@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { ProtectedRoute } from './components';
 import { LogIn, UsersList, User } from './pages';
+import ProtectedRoute from './ProtectedRoute';
 import './App.css';
 
 function App() {

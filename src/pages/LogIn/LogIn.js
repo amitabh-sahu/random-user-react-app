@@ -40,7 +40,7 @@ function LogIn() {
     return (
         <div className="app_login">
             <h1>Login</h1>
-            <form onSubmit={handleSubmit} noValidate>
+            <form onSubmit={handleSubmit}>
                 <div className="field">
                     <label className="label">Email Address</label>
                     <input
@@ -55,6 +55,7 @@ function LogIn() {
                 <div className="field">
                     <label className="label">Password</label>
                     <input
+                        autoComplete="off"
                         type={checked ? "password" : "text"}
                         name="password"
                         onChange={handleChange}
